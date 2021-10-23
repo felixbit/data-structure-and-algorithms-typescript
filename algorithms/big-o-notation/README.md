@@ -56,8 +56,15 @@
 
 ## To run examples in this codebook
 
+install `ts-node`
 ```bash
-npm ts-node file-name.ts
+npm i ts-node -g
+```
+
+then execute the file
+
+```bash
+ts-node file-name.ts
 ```
 
 *It should be noted that these basic examples are focused on the theory of Big O Notation and not the execution of the code itself.* 
