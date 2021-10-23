@@ -11,43 +11,15 @@
 
 ---
 
-Notation
-
-- $O(1)$
-- $O(log\,n)$
-
-- $O(n)$
-
-- $O(n\,\,log\,n)$
-
-- $O(n^2)$
-- $O(2^n)$
-
-- $O(n!)$
-
-Name
-
-- Constant
-- Logarithmic
-
-- Linear
-
-- Log Linear
-
-- Quadratic
-- Exponential
-
-- Factorial
-
-Example
-
-- No loops
-- Usually searching algorithms have log n if they are sorted (Binary Search)
-- Linear for loops, while loops through n items
-- Usually sorting operations
-- Two nested loops
-- Recursive algorithms that solves a problem of size N
-- Add a loop for every element.
+| Notation         | Name        | Example                                                                      |
+|------------------|-------------|------------------------------------------------------------------------------|
+| $O(1)$           | Constant    | *No loops*                                                                   |
+| $O(log\,n)$      | Logarithmic | *Usually searching algorithms have log n if they are sorted (Binary Search)* |
+| $O(n)$           | Linear      | *Linear for loops, while loops through n items*                              |
+| $O(n\,\,log\,n)$ | Log Linear  | *Usually sorting operations*                                                 |
+| $O(n^2)$         | Quadratic   | *Two nested loops*                                                           |
+| $O(2^n)$         | Exponential | *Recursive algorithms that solves a problem of size N*                       |
+| $O(n!)$          | Factorial   | *Add a loop for every element.*                                              |
 
 → *Iterating through half a collection is still $O(n)$.*
 
@@ -65,20 +37,21 @@ Example
 
 ---
 
-**What makes a Good Code?**
-    - Readable
-    - Scalable
-        - Speed (time complexity)
-        - Memory (space complexity)
+### **What makes a Good Code?**
 
-### What causes time complexity in a function?
+- Readable
+- Scalable
+    - Speed (time complexity)
+    - Memory (space complexity)
+
+### **What causes time complexity in a function?**
 
 - Operations (`+`, `-`, `*`, `/`)
 - Comparisons (`>`, `<`, `==`)
 - Looping (`for`, `while`)
 - Outside function calls (`function()`)
 
-### What causes space complexity in a function?
+### **What causes space complexity in a function?**
 
 → **heap**: variable → **stack**: function calls
 
@@ -86,3 +59,13 @@ Example
 - Data Structures
 - Function Calls
 - Allocations
+
+## To run examples in this codebook
+
+```bash
+npm ts-node file-name.ts
+```
+
+*It should be noted that these basic examples are focused on the theory of Big O Notation and not the execution of the code itself.* 
+
+Have fun!!! 😄
