@@ -13,13 +13,13 @@
 
 | Notation         | Name        | Example                                                                      |
 |------------------|-------------|------------------------------------------------------------------------------|
-| $O(1)$           | Constant    | *No loops*                                                                   |
-| $O(log\,n)$      | Logarithmic | *Usually searching algorithms have log n if they are sorted (Binary Search)* |
-| $O(n)$           | Linear      | *Linear for loops, while loops through n items*                              |
-| $O(n\,\,log\,n)$ | Log Linear  | *Usually sorting operations*                                                 |
-| $O(n^2)$         | Quadratic   | *Two nested loops*                                                           |
-| $O(2^n)$         | Exponential | *Recursive algorithms that solves a problem of size N*                       |
-| $O(n!)$          | Factorial   | *Add a loop for every element.*                                              |
+| O(1)           | Constant    | *No loops*                                                                   |
+| O(log\,n)      | Logarithmic | *Usually searching algorithms have log n if they are sorted (Binary Search)* |
+| O(n)           | Linear      | *Linear for loops, while loops through n items*                              |
+| O(n\,\,log\,n) | Log Linear  | *Usually sorting operations*                                                 |
+| O(n^2)         | Quadratic   | *Two nested loops*                                                           |
+| O(2^n)         | Exponential | *Recursive algorithms that solves a problem of size N*                       |
+| O(n!)          | Factorial   | *Add a loop for every element.*                                              |
 
 → *Iterating through half a collection is still $O(n)$.*
 
@@ -30,7 +30,7 @@
 1. **Always analyse the worst case.**
 2. **Remove constants.**
 3. **Different inputs should have different variables.**
-    1. $O(nA\,\cdot\,nB)$ or $O(nA +nB)$.
+    1. O(nA\,\cdot\,nB) or O(nA +nB).
 4. **Drop non-dominant terms.**
 
 ## Space x Time complexity
@@ -69,3 +69,5 @@ npm ts-node file-name.ts
 *It should be noted that these basic examples are focused on the theory of Big O Notation and not the execution of the code itself.* 
 
 Have fun!!! 😄
+
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
