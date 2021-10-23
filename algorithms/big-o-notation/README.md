@@ -1,5 +1,3 @@
-# data-structure-and-algorithms-typescript/big-o-notation
-
 # Big O Notation
 
 
