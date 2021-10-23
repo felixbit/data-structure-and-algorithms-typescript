@@ -9,7 +9,6 @@
 
 ## Order of common functions
 
----
 
 | Notation         | Name        | Example                                                                      |
 |------------------|-------------|------------------------------------------------------------------------------|
@@ -25,7 +24,6 @@
 
 ## Rule book
 
----
 
 1. **Always analyse the worst case.**
 2. **Remove constants.**
@@ -35,7 +33,6 @@
 
 ## Space x Time complexity
 
----
 
 ### **What makes a Good Code?**
 
